@@ -10,6 +10,11 @@ section {
     margin: 0 auto;
 }
 
+#text-wrapper {
+    width: 50%;
+    margin: 0 auto; 
+}
+
 #select-wrapper {
     width: 50%;
     margin: 0 auto; 

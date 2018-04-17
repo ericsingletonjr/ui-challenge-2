@@ -1,11 +1,56 @@
-.checkbox, .radio {
+.checkbox, .radio, #select-box {
     opacity: 0;
     width: 57px;
     height: 53px;
 }
 
+.not-visible {
+    display: none;
+}
+
+
+#placeholder {
+    color: lightgray;
+}
+
 #select-box {
     color:gray;
+    -webkit-appearance: none;
+}
+
+.select-contain {
+    position: absolute;
+    border: 1px solid black;
+    width: 300px;
+    height: 49px;
+}
+
+.select-arrow {
+    position: absolute;
+    background: url("../assets/sprites/form-elements-sprite.png") no-repeat;
+    background-position: -355px -85px;
+    background-size: 500px;
+    right: 730px;
+    width: 30px;
+    height: 48px;
+    z-index: -1;
+}
+
+.closed {
+    background: url("../assets/sprites/form-elements-sprite.png") no-repeat;
+    background-position: -391px -85px;
+    background-size: 500px;
+}
+
+.isHidden {
+    visibility: hidden;
+}
+
+#require {
+    margin: 0;
+    margin-left: 14em;
+    color: red;
+    font-size: 0.7em;
 }
 
 .check-sprite {
@@ -64,13 +109,4 @@
 .button:active {
     background: black;
     color: white;
-}
-
-#testbox {
-    border: 1px solid black;
-    background: url("../assets/sprites/form-elements-sprite.png") no-repeat;
-    background-position: -55px -85px;
-    background-size: 500px;
-    width: 55px;
-    height: 50px;
 }
