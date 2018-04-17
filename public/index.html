@@ -10,9 +10,6 @@
 <body>
     <section id='form'>
 
-        <p>text w/o validation</p>
-        <input class="text-input" type="text" placeholder="placeholder">
-        
         <p>text w/ validation</p>
         <input class="text-input" type="text" placeholder="placeholder" required>
         
@@ -33,10 +30,11 @@
         <p>Radio Buttons</p>
         <input type="radio" value="0">
         <input type="radio" value="1" checked>
-        
-        <p>Buttons Styled</p>
-        <button class="button" type="button">submit</button>
-        <button class="button" type="button">submit</button>
+        <div id="button-wrapper">
+            <p>Buttons Styled</p>
+            <button class="button" type="button">submit</button>
+            <button class="button btn-active" type="button">submit</button>
+        </div>
 
     </section>
     <footer>
