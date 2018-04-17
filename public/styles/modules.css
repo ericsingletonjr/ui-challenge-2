@@ -1,5 +1,5 @@
 .checkbox, .radio {
-    opacity: 0.1;
+    opacity: 0;
     width: 57px;
     height: 53px;
 }
@@ -29,7 +29,7 @@
     height: 57px;
 }
 
-.check-sprite#checked {
+.check-sprite.checked {
     border: 1px solid black;
     background: url("../assets/sprites/form-elements-sprite.png") no-repeat;
     background-position: -131px -85px;
@@ -37,7 +37,7 @@
     width: 55px;
     height: 50px;  
 }
-.radio-sprite#r-checked {
+.radio-sprite.r-checked {
     border: 1px solid black;
     background: url("../assets/sprites/form-elements-sprite.png") no-repeat;
     background-position: -279px -84px;

@@ -12,7 +12,7 @@
 
         <p>text w/ validation</p>
         <input class="text-input" type="text" placeholder="placeholder" required>
-        
+        <div id="select-wrapper">
         <p>Select box</p>
         <select id="select-box" required>
             <option id="placeholder" value="" disable when hidden selected>Please select an option</option>
@@ -22,19 +22,20 @@
             <option value="4">option 4</option>
             <option value="5">option 5</option>
         </select>
-        <div id="check-wapper">
+        </div>
+        <div id="check-wrapper">
             <p>Checkboxes</p>
             <div class="check-sprite">
             <input class="checkbox" type="checkbox">
             </div>
-            <div class="check-sprite" id="checked">
+            <div class="check-sprite checked">
             <input class="checkbox" type="checkbox" checked>
             </div>
             <p>Radio Buttons</p>
             <div class="radio-sprite">
             <input class="radio" type="radio" name="radio" value="0">
             </div>
-            <div class="radio-sprite" id="r-checked">
+            <div class="radio-sprite r-checked">
             <input class="radio" type="radio" name="radio" value="1" checked>
             </div>
         </div>
@@ -54,5 +55,6 @@
         src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
+        <script src="js/app.js"></script>
     </body>
 </html>
