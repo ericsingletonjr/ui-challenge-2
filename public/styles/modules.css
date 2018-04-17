@@ -1,5 +1,5 @@
 .checkbox, .radio {
-    opacity: 0;
+    opacity: 0.1;
     width: 57px;
     height: 53px;
 }
@@ -18,6 +18,17 @@
     height: 50px;
 }
 
+.radio-sprite {
+    display: inline-block;
+    border: 1px solid black;
+    background: url("../assets/sprites/form-elements-sprite.png") no-repeat;
+    background-position: -200px -84px;
+    background-size: 500px;
+    border-radius: 30px;
+    width: 58px;
+    height: 57px;
+}
+
 .check-sprite#checked {
     border: 1px solid black;
     background: url("../assets/sprites/form-elements-sprite.png") no-repeat;
@@ -25,6 +36,15 @@
     background-size: 500px;
     width: 55px;
     height: 50px;  
+}
+.radio-sprite#r-checked {
+    border: 1px solid black;
+    background: url("../assets/sprites/form-elements-sprite.png") no-repeat;
+    background-position: -279px -84px;
+    background-size: 500px;
+    border-radius: 30px;
+    width: 58px;
+    height: 57px;  
 }
 
 .button {
