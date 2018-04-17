@@ -9,7 +9,10 @@ section {
     width: 100%;
     margin: 0 auto;
 }
-
+#check-wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
 #button-wrapper {
     width: 50%;
     margin: 0 auto;
