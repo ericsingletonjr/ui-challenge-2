@@ -1,0 +1,23 @@
+
+
+
+
+
+.button {
+    border: 0;
+    width: 7em;
+    height: 3em;
+    font-weight: bold;
+    background: grey;
+}
+.btn-active {
+    background: black;
+    color: white;
+}
+.button:focus {
+    outline: none;
+}
+.button:active {
+    background: black;
+    color: white;
+}
