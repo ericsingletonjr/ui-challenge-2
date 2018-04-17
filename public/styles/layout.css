@@ -1,6 +1,10 @@
 @import 'base.css';
 @import 'modules.css';
 
+img {
+    max-width: 100%;
+}
+
 section {
     width: 100%;
     margin: 0 auto;
